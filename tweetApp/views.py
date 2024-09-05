@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import login
 # Create your views here.
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'tweet_list.html')
 
 def tweet_list(request):
     tweets = Tweet.objects.all().order_by('-created_at')
