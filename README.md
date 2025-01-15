@@ -1,7 +1,7 @@
 
 # TweetApp
 
-This is a Django-based web learning project --> TweetApp.
+This is a Django-based web project --> TweetApp.
 
 ## Installation
 
